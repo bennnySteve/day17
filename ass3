@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  int b=0,n,i,j;
+  scanf("%d",&n);
+  for(i=2;i<=n/2;i++){
+    if(n%i==0){
+     b=1;
+     break;
+    }
+  }
+  (b!=1)?printf("\nIt's a prime"):printf("\nIt's not a prime");
+}
